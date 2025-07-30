@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2A5245022E38FFB6002C2057 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A5245012E38FFB0002C2057 /* README.md */; };
+		42065CEDD93C40A2DA94C2C4 /* Pods_Flash_Chat_iOS18_Flash_Chat_iOS18UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DA1CD9A94FF7A44802028F /* Pods_Flash_Chat_iOS18_Flash_Chat_iOS18UITests.framework */; };
+		83072FA61A716566595AD096 /* Pods_Flash_Chat_iOS18.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9249A2F02A4CF0439FBE1C7 /* Pods_Flash_Chat_iOS18.framework */; };
+		CA48AAC39C02EF9A22A0C021 /* Pods_Flash_Chat_iOS18Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BFD7391F5ABB7FF3CFD36A /* Pods_Flash_Chat_iOS18Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +31,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A5244CA2E38FEFF002C2057 /* Flash-Chat-iOS18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash-Chat-iOS18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DA1CD9A94FF7A44802028F /* Pods_Flash_Chat_iOS18_Flash_Chat_iOS18UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS18_Flash_Chat_iOS18UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5244CA2E38FEFF002C2057 /* Flash Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5244E02E38FF01002C2057 /* Flash-Chat-iOS18Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flash-Chat-iOS18Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5244EA2E38FF01002C2057 /* Flash-Chat-iOS18UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flash-Chat-iOS18UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5245012E38FFB0002C2057 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5AD93290C051C6C8EF4D1101 /* Pods-Flash-Chat-iOS18.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash-Chat-iOS18.debug.xcconfig"; path = "Target Support Files/Pods-Flash-Chat-iOS18/Pods-Flash-Chat-iOS18.debug.xcconfig"; sourceTree = "<group>"; };
+		5BAAABE4D5CBEBEBF39E93D0 /* Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests.release.xcconfig"; path = "Target Support Files/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests.release.xcconfig"; sourceTree = "<group>"; };
+		6149DB5AF2E1785548F5CFEB /* Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests.debug.xcconfig"; path = "Target Support Files/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A67AB4233450D82685DA8CC4 /* Pods-Flash-Chat-iOS18.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash-Chat-iOS18.release.xcconfig"; path = "Target Support Files/Pods-Flash-Chat-iOS18/Pods-Flash-Chat-iOS18.release.xcconfig"; sourceTree = "<group>"; };
+		B9249A2F02A4CF0439FBE1C7 /* Pods_Flash_Chat_iOS18.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS18.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00AA733A3260A8D512FC012 /* Pods-Flash-Chat-iOS18Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash-Chat-iOS18Tests.debug.xcconfig"; path = "Target Support Files/Pods-Flash-Chat-iOS18Tests/Pods-Flash-Chat-iOS18Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9BFD7391F5ABB7FF3CFD36A /* Pods_Flash_Chat_iOS18Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS18Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F087D797E3F47BE9B0CCC423 /* Pods-Flash-Chat-iOS18Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash-Chat-iOS18Tests.release.xcconfig"; path = "Target Support Files/Pods-Flash-Chat-iOS18Tests/Pods-Flash-Chat-iOS18Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2A5244F22E38FF01002C2057 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		2A5244F22E38FF01002C2057 /* Exceptions for "Flash-Chat-iOS18" folder in "Flash-Chat-iOS18" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -45,9 +57,28 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2A5244CC2E38FEFF002C2057 /* Flash-Chat-iOS18 */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (2A5244F22E38FF01002C2057 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Flash-Chat-iOS18"; sourceTree = "<group>"; };
-		2A5244E32E38FF01002C2057 /* Flash-Chat-iOS18Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Flash-Chat-iOS18Tests"; sourceTree = "<group>"; };
-		2A5244ED2E38FF01002C2057 /* Flash-Chat-iOS18UITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Flash-Chat-iOS18UITests"; sourceTree = "<group>"; };
+		2A5244CC2E38FEFF002C2057 /* Flash-Chat-iOS18 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2A5244F22E38FF01002C2057 /* Exceptions for "Flash-Chat-iOS18" folder in "Flash-Chat-iOS18" target */,
+			);
+			path = "Flash-Chat-iOS18";
+			sourceTree = "<group>";
+		};
+		2A5244E32E38FF01002C2057 /* Flash-Chat-iOS18Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = "Flash-Chat-iOS18Tests";
+			sourceTree = "<group>";
+		};
+		2A5244ED2E38FF01002C2057 /* Flash-Chat-iOS18UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = "Flash-Chat-iOS18UITests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83072FA61A716566595AD096 /* Pods_Flash_Chat_iOS18.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA48AAC39C02EF9A22A0C021 /* Pods_Flash_Chat_iOS18Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42065CEDD93C40A2DA94C2C4 /* Pods_Flash_Chat_iOS18_Flash_Chat_iOS18UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,17 +117,42 @@
 				2A5244E32E38FF01002C2057 /* Flash-Chat-iOS18Tests */,
 				2A5244ED2E38FF01002C2057 /* Flash-Chat-iOS18UITests */,
 				2A5244CB2E38FEFF002C2057 /* Products */,
+				EFC096A4AE36E98BA63FAE08 /* Pods */,
+				D711FEE805A40D5835A50207 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2A5244CB2E38FEFF002C2057 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A5244CA2E38FEFF002C2057 /* Flash-Chat-iOS18.app */,
+				2A5244CA2E38FEFF002C2057 /* Flash Chat.app */,
 				2A5244E02E38FF01002C2057 /* Flash-Chat-iOS18Tests.xctest */,
 				2A5244EA2E38FF01002C2057 /* Flash-Chat-iOS18UITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D711FEE805A40D5835A50207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9249A2F02A4CF0439FBE1C7 /* Pods_Flash_Chat_iOS18.framework */,
+				03DA1CD9A94FF7A44802028F /* Pods_Flash_Chat_iOS18_Flash_Chat_iOS18UITests.framework */,
+				E9BFD7391F5ABB7FF3CFD36A /* Pods_Flash_Chat_iOS18Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFC096A4AE36E98BA63FAE08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AD93290C051C6C8EF4D1101 /* Pods-Flash-Chat-iOS18.debug.xcconfig */,
+				A67AB4233450D82685DA8CC4 /* Pods-Flash-Chat-iOS18.release.xcconfig */,
+				6149DB5AF2E1785548F5CFEB /* Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests.debug.xcconfig */,
+				5BAAABE4D5CBEBEBF39E93D0 /* Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests.release.xcconfig */,
+				C00AA733A3260A8D512FC012 /* Pods-Flash-Chat-iOS18Tests.debug.xcconfig */,
+				F087D797E3F47BE9B0CCC423 /* Pods-Flash-Chat-iOS18Tests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A5244F32E38FF01002C2057 /* Build configuration list for PBXNativeTarget "Flash-Chat-iOS18" */;
 			buildPhases = (
+				7502F0EDEF02D8155065F2A2 /* [CP] Check Pods Manifest.lock */,
 				2A5244C62E38FEFF002C2057 /* Sources */,
 				2A5244C72E38FEFF002C2057 /* Frameworks */,
 				2A5244C82E38FEFF002C2057 /* Resources */,
+				EAA20B74071C5E2D04E4C38B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -115,16 +176,15 @@
 				2A5244CC2E38FEFF002C2057 /* Flash-Chat-iOS18 */,
 			);
 			name = "Flash-Chat-iOS18";
-			packageProductDependencies = (
-			);
 			productName = "Flash-Chat-iOS18";
-			productReference = 2A5244CA2E38FEFF002C2057 /* Flash-Chat-iOS18.app */;
+			productReference = 2A5244CA2E38FEFF002C2057 /* Flash Chat.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2A5244DF2E38FF01002C2057 /* Flash-Chat-iOS18Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A5244F82E38FF01002C2057 /* Build configuration list for PBXNativeTarget "Flash-Chat-iOS18Tests" */;
 			buildPhases = (
+				EF988B3E40B759E70DA528E5 /* [CP] Check Pods Manifest.lock */,
 				2A5244DC2E38FF01002C2057 /* Sources */,
 				2A5244DD2E38FF01002C2057 /* Frameworks */,
 				2A5244DE2E38FF01002C2057 /* Resources */,
@@ -138,8 +198,6 @@
 				2A5244E32E38FF01002C2057 /* Flash-Chat-iOS18Tests */,
 			);
 			name = "Flash-Chat-iOS18Tests";
-			packageProductDependencies = (
-			);
 			productName = "Flash-Chat-iOS18Tests";
 			productReference = 2A5244E02E38FF01002C2057 /* Flash-Chat-iOS18Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -148,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A5244FB2E38FF01002C2057 /* Build configuration list for PBXNativeTarget "Flash-Chat-iOS18UITests" */;
 			buildPhases = (
+				19B284D3875950F8B10A5450 /* [CP] Check Pods Manifest.lock */,
 				2A5244E62E38FF01002C2057 /* Sources */,
 				2A5244E72E38FF01002C2057 /* Frameworks */,
 				2A5244E82E38FF01002C2057 /* Resources */,
+				D1F151D262D91877B28B33CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,8 +221,6 @@
 				2A5244ED2E38FF01002C2057 /* Flash-Chat-iOS18UITests */,
 			);
 			name = "Flash-Chat-iOS18UITests";
-			packageProductDependencies = (
-			);
 			productName = "Flash-Chat-iOS18UITests";
 			productReference = 2A5244EA2E38FF01002C2057 /* Flash-Chat-iOS18UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -191,7 +249,6 @@
 				};
 			};
 			buildConfigurationList = 2A5244C52E38FEFF002C2057 /* Build configuration list for PBXProject "Flash-Chat-iOS18" */;
-			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,6 +257,7 @@
 			);
 			mainGroup = 2A5244C12E38FEFF002C2057;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 2A5244CB2E38FEFF002C2057 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +293,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B284D3875950F8B10A5450 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7502F0EDEF02D8155065F2A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flash-Chat-iOS18-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F151D262D91877B28B33CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA20B74071C5E2D04E4C38B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash-Chat-iOS18/Pods-Flash-Chat-iOS18-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash-Chat-iOS18/Pods-Flash-Chat-iOS18-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flash-Chat-iOS18/Pods-Flash-Chat-iOS18-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF988B3E40B759E70DA528E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flash-Chat-iOS18Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A5244C62E38FEFF002C2057 /* Sources */ = {
@@ -276,11 +437,13 @@
 /* Begin XCBuildConfiguration section */
 		2A5244F42E38FF01002C2057 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD93290C051C6C8EF4D1101 /* Pods-Flash-Chat-iOS18.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Flash-Chat-iOS18/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,8 +457,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.logixphere.Flash-Chat-iOS18";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.logixphere.flashchats;
+				PRODUCT_NAME = "Flash Chat";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +467,13 @@
 		};
 		2A5244F52E38FF01002C2057 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67AB4233450D82685DA8CC4 /* Pods-Flash-Chat-iOS18.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Flash-Chat-iOS18/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -322,8 +487,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.logixphere.Flash-Chat-iOS18";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.logixphere.flashchats;
+				PRODUCT_NAME = "Flash Chat";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,6 +616,7 @@
 		};
 		2A5244F92E38FF01002C2057 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00AA733A3260A8D512FC012 /* Pods-Flash-Chat-iOS18Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +635,7 @@
 		};
 		2A5244FA2E38FF01002C2057 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F087D797E3F47BE9B0CCC423 /* Pods-Flash-Chat-iOS18Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +654,7 @@
 		};
 		2A5244FC2E38FF01002C2057 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6149DB5AF2E1785548F5CFEB /* Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +671,7 @@
 		};
 		2A5244FD2E38FF01002C2057 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAAABE4D5CBEBEBF39E93D0 /* Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
