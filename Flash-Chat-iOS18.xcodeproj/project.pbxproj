@@ -67,15 +67,11 @@
 		};
 		2A5244E32E38FF01002C2057 /* Flash-Chat-iOS18Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "Flash-Chat-iOS18Tests";
 			sourceTree = "<group>";
 		};
 		2A5244ED2E38FF01002C2057 /* Flash-Chat-iOS18UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "Flash-Chat-iOS18UITests";
 			sourceTree = "<group>";
 		};
