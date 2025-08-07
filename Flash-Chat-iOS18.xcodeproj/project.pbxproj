@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0283FD1C2E44B1BC0028694A /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0283FD1B2E44B1BC0028694A /* IQKeyboardManagerSwift */; };
 		2A5245022E38FFB6002C2057 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A5245012E38FFB0002C2057 /* README.md */; };
 		42065CEDD93C40A2DA94C2C4 /* Pods_Flash_Chat_iOS18_Flash_Chat_iOS18UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DA1CD9A94FF7A44802028F /* Pods_Flash_Chat_iOS18_Flash_Chat_iOS18UITests.framework */; };
 		83072FA61A716566595AD096 /* Pods_Flash_Chat_iOS18.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9249A2F02A4CF0439FBE1C7 /* Pods_Flash_Chat_iOS18.framework */; };
@@ -83,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83072FA61A716566595AD096 /* Pods_Flash_Chat_iOS18.framework in Frameworks */,
+				0283FD1C2E44B1BC0028694A /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +255,9 @@
 			);
 			mainGroup = 2A5244C12E38FEFF002C2057;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0283FD1A2E44B1BC0028694A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2A5244CB2E38FEFF002C2057 /* Products */;
 			projectDirPath = "";
@@ -343,9 +348,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests/Pods-Flash-Chat-iOS18-Flash-Chat-iOS18UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -360,9 +369,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Flash-Chat-iOS18/Pods-Flash-Chat-iOS18-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Flash-Chat-iOS18/Pods-Flash-Chat-iOS18-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -722,6 +735,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0283FD1A2E44B1BC0028694A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0283FD1B2E44B1BC0028694A /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0283FD1A2E44B1BC0028694A /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A5244C22E38FEFF002C2057 /* Project object */;
 }
